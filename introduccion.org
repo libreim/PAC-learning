@@ -22,7 +22,7 @@
 #+LATEX_HEADER: \usepackage{titlesec}
 #+LATEX_HEADER: \newcommand{\sectionbreak}{\clearpage}
 
-\hfill
+
 Estos apuntes son una adptación en su mayoría del contenido del libro cite:shwartz_understanding_ml
 
 * Introducción
@@ -281,7 +281,7 @@ Sea $\mathcal{H}$ una clase de hipótesis finita, $Z$ un dominio y sea $l : \mat
 \[m_{\mathcal{H}}( \epsilon, \delta ) \le \left\lceil \frac{2 log(2|\mathcal{H}|/\delta)(b-a)^2}{\epsilon^2} \right\rceil\]
 #+end_theorem
 
-* Equilibrio error-varianza /bias-complexity tradeoff/
+* Equilibrio error-varianza, /bias-complexity tradeoff/
 Veamos que dado un algoritmo de aprendizaje no puede ser el óptimo para aprender todas las distribuciones.
 
 Damos un lema previo, la desigualdad de Markov:
